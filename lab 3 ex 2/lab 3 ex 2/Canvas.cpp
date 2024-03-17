@@ -4,30 +4,32 @@
 
 using namespace std;
 
-Canvas::Canvas(int w, int h)
+Canvas::Canvas(int width, int height)
 {
-	int i, j;
-	canvas = new char*[this->height];
-	for (i = 0; i < this->height; ++i)
+	this->width = width;
+	this->height = height;
+	canvas = new char*[height];
+	for (int i = 0; i < this->height; i++)
 	{
-		canvas[i] = new char[this->width];
-		for (j = 0; j < this->width; ++j)
-		{
+		canvas[i] = new char[width];
+		for (int j = 0; j < this->width; j++)
 			canvas[i][j] = ' ';
-		}
+
 	}
+
 }
 
 void Canvas::DrawCircle(int x, int y, int ray, char ch)
 {
 	int i, j;
-	if (x < this->height && y < this->width)
+	if (x >= 0 && x <= width && y >= 0 && y <= height)
 	{
 		for (i = 0; i < this->height; i++)
 		{
 			for (j = 0; j < this->width; j++)
 			{
 				if ((i - x) * (i - x) + (j - y) * (j - y) >= ray * (ray - 1) && (i - x) * (i - x) + (j - y) * (j - y) <= ray * (ray + 1))
+					if (x >= 0 && x <= width && y >= 0 && y <= height)
 					canvas[i][j] = ch;
 			}
 		}
@@ -37,13 +39,14 @@ void Canvas::DrawCircle(int x, int y, int ray, char ch)
 void Canvas::FillCircle(int x, int y, int ray, char ch)
 {
 	int i, j;
-	if (x < this->height && y < this->width)
+	if (x >= 0 && x <= width && y >= 0 && y <= height)
 	{
 		for (i = 0; i < height; i++)
 		{
 			for (j = 0; j < width; j++)
 			{
 				if ((i - x) * (i - x) + (j - y) * (j - y) < ray * ray - 15)
+					if (x >= 0 && x <= width && y >= 0 && y <= height)
 					canvas[i][j] = ch;
 			}
 		}
@@ -58,7 +61,7 @@ void Canvas::DrawRect(int left, int top, int right, int bottom, char ch)
 
 		{
 			canvas[top][i] = ch;
-			canvas[top][i] = ch;
+			canvas[bottom][i] = ch;
 		}
 		for (int i = top; i <= bottom; i++)
 		{
