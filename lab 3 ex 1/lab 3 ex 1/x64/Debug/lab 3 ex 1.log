@@ -1,0 +1,8 @@
+﻿  Math.cpp
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(64,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(66,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(69,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(70,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(93,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\lab 3 ex 1\Math.cpp(95,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  lab 3 ex 1.vcxproj -> D:\Informatica\Probleme OOP\OOPLabs2024\lab 3 ex 1\x64\Debug\lab 3 ex 1.exe
