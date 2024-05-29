@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(7): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(17): error C3688: invalid literal suffix '_Kelvin'; literal operator or literal operator template 'operator ""_Kelvin' not found
+  d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(17): note: Literal operator must have a parameter list of the form 'unsigned long long' or 'const char *'
+d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(18): error C3688: invalid literal suffix '_Fahrenheit'; literal operator or literal operator template 'operator ""_Fahrenheit' not found
+  d:\stefan\probleme oop\oop\ooplabs2024\lab7ex1\lab7ex1\main.cpp(18): note: Literal operator must have a parameter list of the form 'unsigned long long' or 'const char *'

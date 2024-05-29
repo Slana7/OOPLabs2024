@@ -1,0 +1,9 @@
+﻿  Source.cpp
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(148): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(150): error C2065: 'index': undeclared identifier
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(150): error C2065: 'key': undeclared identifier
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(150): error C2065: 'value': undeclared identifier
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(153): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(155): error C2065: 'index': undeclared identifier
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(155): error C2065: 'key': undeclared identifier
+d:\stefan\probleme oop\oop\ooplabs2024\lab 9\lab 9\source.cpp(155): error C2065: 'value': undeclared identifier
