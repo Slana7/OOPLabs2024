@@ -1,0 +1,62 @@
+﻿  FileName.cpp
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'DataType'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477:         with
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477:         [
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477:             DataType=const char *
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477:         ]
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'DataType'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313:         with
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313:         [
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313:             DataType=const char *
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313:         ]
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'int'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(145,10): warning C4313: 'printf': '%s' in format string conflicts with argument 3 of type 'int'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039: 'data': is not a member of 'NodeContent<KeyType,DataType>'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039:         with
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039:         [
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039:             KeyType=int,
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039:             DataType=const char *
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49): error C2039:         ]
+  D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(6,8):
+  see declaration of 'NodeContent<KeyType,DataType>'
+          with
+          [
+              KeyType=int,
+              DataType=const char *
+          ]
+  D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(52,49):
+  the template instantiation context (the oldest one first) is
+  	D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(139,24):
+  	see reference to class template instantiation 'Map<int,const char *>' being compiled
+  	D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(48,12):
+  	while compiling class template member function 'DataType &Map<int,DataType>::operator [](KeyType)'
+          with
+          [
+              DataType=const char *,
+              KeyType=int
+          ]
+  		D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(140,8):
+  		see the first reference to 'Map<int,const char *>::operator []' in 'main'
+  
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25): error C2440: '=': cannot convert from 'int' to 'DataType'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25): error C2440:         with
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25): error C2440:         [
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25): error C2440:             DataType=const char *
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25): error C2440:         ]
+  D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(60,25):
+  Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039: 'data': is not a member of 'NodeContent<KeyType,DataType>'
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039:         with
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039:         [
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039:             KeyType=int,
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039:             DataType=const char *
+D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(63,47): error C2039:         ]
+  D:\Informatica\Probleme OOP\OOPLabs2024\lab 9\lab 9\FileName.cpp(6,8):
+  see declaration of 'NodeContent<KeyType,DataType>'
+          with
+          [
+              KeyType=int,
+              DataType=const char *
+          ]
+  
